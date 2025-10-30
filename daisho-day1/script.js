@@ -1,6 +1,6 @@
 //HTML上のボタンとメッセージ表示部分を取得
-const helloBtn =document.getElementByld("helloBtn");
-const message = document.getElementByld("message");
+const helloBtn =document.getElementById("helloBtn");
+const message = document.getElementById("message");
 
 //ボタンがクリックされた時の処理を登録
 helloBtn.addEventListener("click",() =>{
