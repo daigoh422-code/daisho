@@ -4,7 +4,7 @@ body{
     background:#f2f7fb;
     color:#333;
     margin:0;
-    padding:80px0;
+    padding:80px;
 
 }
 button{
@@ -24,6 +24,6 @@ button:hover{
 
 .message{
     margin-top:24px;
-    font: size 18px;
+    font-size :18px;
     font-weight:bold;
 }
