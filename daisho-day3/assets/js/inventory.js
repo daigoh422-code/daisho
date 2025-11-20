@@ -28,14 +28,14 @@ function render(){
 
         //行の中身（セル）をテンプレート文字列でまとめて書く
         tr.innerHTML=`
-           <td>${item.id}</td>
-           <td>${item.name}</td>
-           <td>${item.price}</td>
-           <td>${item.stock}</td>
+          <td>${item.id}</td>
+          <td>${item.name}</td>
+          <td>${item.price}</td>
+          <td>${item.stock}</td>
            <td>
              <button onclick="changeStock('${item.id}',1)" >+</button>
              <button onclick="changeStock('${item.id}',-1)">+</button>
-            </td>
+           </td>
          `;
 
          //作った tr を tbody の中に追加する
